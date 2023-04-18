@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://tasks.patrykjedrychow.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/boards/641e056f8feba83e0923306f?key=682c6d720e5cd215d7f5ce199b3766b8&token=ATTAfa17dda993840abc34ba2a94b816b9ba3f591d4dd5c922e1f9bb4c25776f93ceD9EA4D48';
+  const trelloApiRoot = 'http://localhost:8080/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
