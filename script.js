@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://tasks.patrykjedrychow.repl.co/v1/tasks';
-  const trelloApiRoot = 'http://api.trello.com/1/';
+  const trelloApiRoot = 'http://api.trello.com/1';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
